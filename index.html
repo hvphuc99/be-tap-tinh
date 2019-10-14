@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/reset.css">    
+  </head>
+  <body>
+    <div class="row d-flex justify-content-center">
+      <div class="col-6">
+        <p class="text-center title">Bé tập tính</p>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row input-user">
+              <div class="col-md-4 align-self-center">
+                <p>Số thứ nhất</p>
+              </div>
+              <div class="col-md-8 align-self-center">
+                <input type="text" class="form-control" id="first-number">
+              </div>
+            </div>
+            <div class="row input-user">
+              <div class="col-md-4 align-self-center">
+                <p>Số thứ hai</p>
+              </div>
+              <div class="col-md-8 align-self-center">
+                <input type="text" class="form-control" id="second-number">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 align-self-center">
+            <div class="row">
+              <div class="col-sm-6 operator">
+                <label>
+                  <input type="radio" name="opt" id="add">&nbsp&nbspCộng
+                </label>
+              </div>
+              <div class="col-sm-6 operator">
+                <label>
+                  <input type="radio" name="opt" id="subtract">&nbsp&nbspTrừ
+                </label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 operator">
+                <label>
+                  <input type="radio" name="opt" id="multiply">&nbsp&nbspNhân
+                </label>
+              </div>
+              <div class="col-sm-6 operator">
+                <label>
+                  <input type="radio" name="opt" id="divide">&nbsp&nbspChia
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row input-user">
+              <div class="col-md-4 align-self-center">
+                <p>Kết quả</p>
+              </div>
+              <div class="col-md-8 align-self-center">
+                <input type="text" class="form-control" disabled id="result-field">
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <button type=button class="btn btn-outline-dark" id="cal-btn">Tính</button>
+          </div>
+        </div>
+        <div class="row notifi">
+          <div class="col-md-8">
+            <div class="row input-user">
+              <div class="col-md-4">
+                <p>Thông báo</p>
+              </div>
+              <div class="col-md-8 align-self-center" id="notifi-field"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+.title {
+  font-weight: bold;
+  font-size: 3em;
+  margin: 40px 0px;
+}
+
+.input-user {
+  margin-bottom: 10px;
+}
+
+.operator {
+  margin-bottom: 10px;
+}
+
+.notifi {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
